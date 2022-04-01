@@ -21,14 +21,14 @@ Inputs and outputs should be valid JavaScript values!
 
 | Input | Output |
 | ----- | ------ |
-|       |        | 
-|       |        | 
-|       |        | 
-
+| {name: "Shawn", dogs: {name: "Clyde"}}, "Clyde"          | {name: "Clyde"}       | 
+| {name: "Jon", dogs: {name: "Dusty", "Kira"}}, "Dusty"    | {name: "Dusty"}       | 
+| {name: "Jon", dogs: {name: "Dusty", "Kira"}}, "Kira"     | {name: "Kira"}        |
+ 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td></td>
+    <td>Searches for a dog name within a persons list of dogs</td>
   </tr>
 </table>
 
