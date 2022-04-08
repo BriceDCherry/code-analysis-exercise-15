@@ -21,9 +21,9 @@ Inputs and outputs should be valid JavaScript values!
 
 | Input | Output |
 | ----- | ------ |
-| {name: "Shawn", dogs: {name: "Clyde"}}, "Clyde"          | {name: "Clyde"}       | 
-| {name: "Jon", dogs: {name: "Dusty", "Kira"}}, "Dusty"    | {name: "Dusty"}       | 
-| {name: "Jon", dogs: {name: "Dusty", "Kira"}}, "Kira"     | {name: "Kira"}        |
+| {name: "Shawn", dogs: {name: "Clyde"}}, "Clyde"          | {name: Clyde}       | 
+| {name: "Jon", dogs: {name: "Dusty", "Kira"}}, "Dusty"    | {name: Dusty}       | 
+| {name: "Brice", dogs: {name: "Stella"}}, "Stella"        | {name: Stella}      |
  
 <table>
   <tr>
